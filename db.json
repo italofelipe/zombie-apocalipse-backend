@@ -1,0 +1,39 @@
+{
+  "survivors": [
+    {
+      "name": "Elon Musk",
+      "isInfected": false,
+      "skills": ["hacking"],
+      "id": 1,
+      "gender": "male"
+    },
+    {
+      "name": "Bear Grylls",
+      "isInfected": false,
+      "skills": ["fighting", "cook", "animal_hunt", "shooting", "lockpick"],
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "name": "Italo Chagas",
+      "isInfected": true,
+      "skills": [],
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "name": "Ana Maria Braga",
+      "isInfected": true,
+      "skills": ["cook"],
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "name": "Some random Bandit",
+      "isInfected": true,
+      "skills": ["lockpick"],
+      "gender": "male",
+      "id": 5
+    }
+  ]
+}
