@@ -1,39 +1,256 @@
 {
   "survivors": [
     {
-      "name": "Elon Musk",
-      "isInfected": false,
-      "skills": ["hacking"],
-      "id": 1,
-      "gender": "male"
-    },
-    {
       "name": "Bear Grylls",
       "isInfected": false,
-      "skills": ["fighting", "cook", "animal_hunt", "shooting", "lockpick"],
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 8
+        },
+        {
+          "skill": "cook",
+          "rate": 4
+        },
+        {
+          "skill": "hunt",
+          "rate": 7
+        },
+        {
+          "skill": "shooting",
+          "rate": 6
+        },
+        {
+          "skill": "lockpick",
+          "rate": 3
+        }
+      ],
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "name": "Columbus",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 3
+        },
+        {
+          "skill": "cook",
+          "rate": 4
+        },
+        {
+          "skill": "hunt",
+          "rate": 5
+        },
+        {
+          "skill": "shooting",
+          "rate": 8
+        },
+        {
+          "skill": "lockpick",
+          "rate": 3
+        }
+      ],
       "gender": "male",
       "id": 2
     },
     {
-      "name": "Italo Chagas",
-      "isInfected": true,
-      "skills": [],
+      "name": "Talahassee",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 9
+        },
+        {
+          "skill": "cook",
+          "rate": 6
+        },
+        {
+          "skill": "hunt",
+          "rate": 10
+        },
+        {
+          "skill": "shooting",
+          "rate": 9
+        },
+        {
+          "skill": "lockpick",
+          "rate": 5
+        }
+      ],
       "gender": "male",
       "id": 3
     },
     {
-      "name": "Ana Maria Braga",
-      "isInfected": true,
-      "skills": ["cook"],
+      "name": "Wichita",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 2
+        },
+        {
+          "skill": "cook",
+          "rate": 5
+        },
+        {
+          "skill": "hunt",
+          "rate": 4
+        },
+        {
+          "skill": "shooting",
+          "rate": 9
+        },
+        {
+          "skill": "lockpick",
+          "rate": 7
+        }
+      ],
       "gender": "female",
       "id": 4
     },
     {
-      "name": "Some random Bandit",
-      "isInfected": true,
-      "skills": ["lockpick"],
-      "gender": "male",
+      "name": "Little Rock",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 2
+        },
+        {
+          "skill": "cook",
+          "rate": 2
+        },
+        {
+          "skill": "hunt",
+          "rate": 5
+        },
+        {
+          "skill": "shooting",
+          "rate": 9
+        },
+        {
+          "skill": "lockpick",
+          "rate": 3
+        }
+      ],
+      "gender": "female",
       "id": 5
+    },
+    {
+      "name": "Bill Murray",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 4
+        },
+        {
+          "skill": "cook",
+          "rate": 8
+        },
+        {
+          "skill": "hunt",
+          "rate": 6
+        },
+        {
+          "skill": "shooting",
+          "rate": 2
+        },
+        {
+          "skill": "lockpick",
+          "rate": 7
+        }
+      ],
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "name": "Italo Chagas",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 2
+        },
+        {
+          "skill": "cook",
+          "rate": 8
+        },
+        {
+          "skill": "hunt",
+          "rate": 2
+        },
+        {
+          "skill": "shooting",
+          "rate": 5
+        },
+        {
+          "skill": "lockpick",
+          "rate": 1
+        }
+      ],
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "name": "Random bandit",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 6
+        },
+        {
+          "skill": "cook",
+          "rate": 3
+        },
+        {
+          "skill": "hunt",
+          "rate": 4
+        },
+        {
+          "skill": "shooting",
+          "rate": 7
+        },
+        {
+          "skill": "lockpick",
+          "rate": 10
+        }
+      ],
+      "gender": "male",
+      "id": 8
+    },
+    {
+      "name": "Jill Valentine",
+      "isInfected": false,
+      "skills": [
+        {
+          "skill": "fighting",
+          "rate": 7
+        },
+        {
+          "skill": "cook",
+          "rate": 3
+        },
+        {
+          "skill": "hunt",
+          "rate": 9
+        },
+        {
+          "skill": "shooting",
+          "rate": 10
+        },
+        {
+          "skill": "lockpick",
+          "rate": 10
+        }
+      ],
+      "gender": "female",
+      "id": 9
     }
   ]
 }
